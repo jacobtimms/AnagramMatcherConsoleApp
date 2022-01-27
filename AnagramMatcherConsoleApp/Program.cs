@@ -7,8 +7,6 @@ namespace AnagramMatcherConsoleApp
     {
         static void Main(string[] args)
         {
-            //string inputString = "apple_car_cider_tar_itch_rat_cried_helicopter_arc.txt";
-
             AnagramMatcher anagramMatcher = new AnagramMatcher();
             Console.WriteLine("\nTo match anagrams, enter filename in the following format:" +
                 "\napple_car_cider_tar_itch_rat_cried_helicopter_arc.txt" +
